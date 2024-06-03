@@ -9,15 +9,23 @@ https://github.com/Nooney27/OffTerSim.git
 ```
 Unity Project:
 If you want to modify the unity environment follow steps 2 to 7 otherwise go directly to gym environment: 
+
 2. Download and install unity hub: https://unity.com/unity-hub 
+
 3. Open Unity hub and navigate to Projects, Add
+
 4. Add the new Project by pointing to this repo. Unity should suggest you to Download an editor version (2021.3.24f1), install it. Otherwise open the Installs tab on the left hand side of the unity hub menu. Then, click on Install Editor button and install the 2021.3.XXXX
+
 5. Open the Project
+
 6. If the Train_env scene is not open by default, open it from Assets/Karting/Scenes.
+
 7. Click on Play and if everything worked fine, it should take about 10-15s to generate a new environment and spawn the buggy car.
 
 Making a gym environment:
+
 8. Follow the unity ml-agents installation guide: https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md
+
 We are using python 3.10.12, mlagents 1.1.0.dev0 (check installed_packages.txt)
 ```
 conda create -n mlagents python=3.10.12 && conda activate mlagents
